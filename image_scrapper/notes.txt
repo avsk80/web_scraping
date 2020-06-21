@@ -1,0 +1,22 @@
+scraping:
+
+1)static ---> pre loaded
+2)dynamic --> loaded as per client request
+
+python packages normally used are:
+1)bs4
+2)scrappy
+
+for scraping static pages bs4 and scrappy can be used.
+for scraping dynamic pages there has to be something that has to interact with the web browser
+>> actions like scrolling the page
+>> clicking the images or links etc.
+
+first we need to find a website, before proceeding with building the web scraper, 
+it is important to always check the Terms & Conditions and the Privacy Policy on the website you plan to scrape to ensure that you are not breaking any of their terms of use.
+
+for dynamic:
+
+option-1 (if familiar with JS): install and run some web driver so that selenium (python code) can use it to read the JS code using the web browser.
+                                Use JS tags to extract data.
+option-2 (if not familiar with JS): install some web driver and convert the JS code into HTML and invoke the site to scrape using the web driver.
