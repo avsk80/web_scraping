@@ -1,1 +1,1 @@
-# image_scraper
+# web_scraping
